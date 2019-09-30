@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your own story</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href=visual.css>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="icon" href="visual novel.png">
+ 
+</head>
+<body>
+
+<div id="main" class="jumbotron text-center"><h1><big>Your own story</big></h1></div>
+	<h3>name</h3>
+<input name="animal" type="form" value="" required="required">
+<h5>gender</h5>
+male
+<input name="gender" type="checkbox" value="he" required="required">
+female
+<input name="gender" type="checkbox" value="she" required="required">
+<h1>
+<button onclick="myFunction()">submit</button></h1>
+<script>
+function myFunction() {
+  var x = document.getElementsByName("animal")[0].value;
+  var y = document.getElementsByName("gender")[0].value;
+  document.getElementById("demo").innerHTML = x+" lives in Japan."+y+" is a school student."+" In 2022, a virtual reality massively multiplayer online role-playing game (VRMMORPG) called Sword Art Online (SAO) is released. With the NerveGear, a helmet that stimulates the user's five senses via their brain, players can experience and control their in-game characters with their minds. Both the game and the NerveGear were created by Akihiko Kayaba."+y+"logged in" ;
+}
+</script>
+<p id="demo"></p>
+<button onclick="rev()"> you went to the forest</button><button onclick="rev2()"> you went to the city</button>
+<script>
+function rev(){
+	document.getElementById("cake").innerHTML = x+"went tot the forest."+y+"saw a man standing near a tree" ;
+	var y = document.getElementsByName("gender")[0].value;
+}	
+function rev2(){
+document.getElementById("cake").innerHTML = x+"went to the city where"+y+"got to know that this game has been hacked ND ONE CAN NOT LOGGED OUT";
+var y = document.getElementsByName("gender")[0].value;
+}	
+
+
+</script>
+<p id="cake"></p>
+</body>
+</html>

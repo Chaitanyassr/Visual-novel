@@ -32,3 +32,75 @@ body {margin:0;}
 .active {
   background-color: #4CAF50;
 }
+*{
+	margin:0;
+	padding:0;
+}
+#{
+	text-decoration:none;
+	color:#000;
+}
+
+}
+h1{
+	font-size:1000%;
+	line-height:100px;
+
+}
+body{
+	background-color:grey;
+	color:blue;
+	font:auto;
+	line-height:40px;
+	border:30px red solid;
+	
+}
+.box1{
+	margin:auto;
+	background-color:black;
+	color:white;
+	line-height:50px;
+	text-align: center;
+	margin:5px;
+	padding:5px;
+}
+.box2{font-size:30px;
+	margin:10%;
+	border:10px black dotted;
+
+}
+h2{
+	margin:50px;
+}
+.box3{float:right;
+	border:10px red solid;
+	margin-left:40px;	
+}
+.box4{border:10px white solid;
+margin-left:40px;
+}
+.box5{
+	color:black;
+	background-color:blue;
+}
+a:hover{
+	color:red;
+}
+	a:active{color:green;
+	}
+a:visited{
+	color:yellow;
+}
+.rocketdock{
+	position:fixed;
+	top:300px;
+	padding-right:200px;
+	background-color:black;
+	padding-right:0px;
+	color:white;
+
+}
+/*background-image:url();*/
+.rocketdock li:nth-child(even){
+	background:green;
+}
